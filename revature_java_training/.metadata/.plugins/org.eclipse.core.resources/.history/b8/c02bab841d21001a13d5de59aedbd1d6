@@ -1,0 +1,29 @@
+package example;
+
+public class AbcEmployer extends EMS{
+
+	@Override
+	public void addEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calculateEmployeeSalary() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void searchEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

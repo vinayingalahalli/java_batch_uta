@@ -1,0 +1,35 @@
+package example;
+
+public class RevEmployee extends RevatureEmployer{
+
+	@Override
+	public void requirement1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calculateEmployeeSalary() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void searchEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

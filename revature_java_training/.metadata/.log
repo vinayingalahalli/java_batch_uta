@@ -1587,3 +1587,211 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 02:23:27.926
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VNSgxlZW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 02:23:27.932
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VNSgxlZW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 02:23:27.938
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 02:23:27.943
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VNSgxlZW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:02.304
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:02.304
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@20e73e41[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:02.304
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.401
+!MESSAGE Boot LS startup time from start to initialized: 4080ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.425
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nogtITzzisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.430
+!MESSAGE subscribing to classpath changes: sts4.classpath.nogtITzz isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.435
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.441
+!MESSAGE subsribers = {sts4.classpath.nogtITzz=Send Classpath Notifications(3435)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.446
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.451
+!MESSAGE project abstract_class_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.456
+!MESSAGE project constructor_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.461
+!MESSAGE Preparing classpath changed notification abstract_class_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.465
+!MESSAGE project encapsulation_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.470
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.474
+!MESSAGE project inheritance_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.479
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.484
+!MESSAGE project myfirstjavaproject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.488
+!MESSAGE buffering callback sts4.classpath.nogtITzz abstract_class_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.492
+!MESSAGE project polymorph_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.497
+!MESSAGE Preparing classpath changed notification constructor_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.501
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.504
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.509
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nogtITzz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.512
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.517
+!MESSAGE buffering callback sts4.classpath.nogtITzz constructor_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.522
+!MESSAGE Preparing classpath changed notification encapsulation_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.526
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.530
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.535
+!MESSAGE buffering callback sts4.classpath.nogtITzz encapsulation_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.539
+!MESSAGE Preparing classpath changed notification inheritance_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.543
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.548
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.552
+!MESSAGE buffering callback sts4.classpath.nogtITzz inheritance_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.557
+!MESSAGE Preparing classpath changed notification myfirstjavaproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.561
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.565
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.570
+!MESSAGE buffering callback sts4.classpath.nogtITzz myfirstjavaproject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.574
+!MESSAGE Preparing classpath changed notification polymorph_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.579
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.584
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.589
+!MESSAGE buffering callback sts4.classpath.nogtITzz polymorph_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.593
+!MESSAGE executing callback sts4.classpath.nogtITzz 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 03:55:06.616
+!MESSAGE executing callback sts4.classpath.nogtITzz SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2019-12-18 03:57:58.616
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroupCore cannot be cast to org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroup
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:47)
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:1)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:74)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:161)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:167)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.FixCorrectionProposal.apply(FixCorrectionProposal.java:182)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:564)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:546)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:540)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1098)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:696)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5787)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1988)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4817)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4820)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:160)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:1946)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5166)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4798)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4812)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 04:08:03.527
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nogtITzz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 04:08:03.543
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nogtITzz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 04:08:03.543
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-18 04:08:03.558
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nogtITzz => OK

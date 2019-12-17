@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="mypack.Demo"/>
+<fullyQualifiedTypeName name="static_nonstatic_eg.Product"/>
+<fullyQualifiedTypeName name="example.Calculator"/>
+<fullyQualifiedTypeName name="eg.Product"/>
+<fullyQualifiedTypeName name="eg1.WhatsAppV1"/>
+<fullyQualifiedTypeName name="eg1.WhatsAppMain"/>
+<fullyQualifiedTypeName name="eg1.WhatsAppV2"/>
+<fullyQualifiedTypeName name="eg2.Player"/>
+<fullyQualifiedTypeName name="eg3.Team"/>
+<fullyQualifiedTypeName name="eg3.Organization"/>
+<fullyQualifiedTypeName name="eg3.Employee"/>
+<fullyQualifiedTypeName name="eg3.Player"/>
+<fullyQualifiedTypeName name="eg3.Person"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="compiler_static_overload_demo.Calculator"/>
+<fullyQualifiedTypeName name="runtime_dynamic_override_demo.MobileV1"/>
+<fullyQualifiedTypeName name="runtime_dynamic_override_demo.MobileV2"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="override_objectclass.Player"/>
+<fullyQualifiedTypeName name="example.RevatureEmployer"/>
+<fullyQualifiedTypeName name="example.RevEmployee"/>
+</qualifiedTypeNameHistroy>
