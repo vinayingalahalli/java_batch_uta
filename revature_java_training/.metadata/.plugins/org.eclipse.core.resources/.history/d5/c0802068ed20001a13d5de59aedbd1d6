@@ -1,0 +1,8 @@
+package example;
+
+public class Calculator {
+
+ Calculator() {
+		// TODO Auto-generated constructor stub
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Product.java&apos; to &apos;encapsulation_demo/src/eg&apos;&#x0D;&#x0A;- Original project: &apos;myfirstjavaproject&apos;&#x0D;&#x0A;- Destination element: &apos;encapsulation_demo/src/eg&apos;&#x0D;&#x0A;- Original element: &apos;static_nonstatic_eg.Product.java&apos;" description="Copy compilation unit" destination="=encapsulation_demo/src&lt;eg" element1="/src&lt;static_nonstatic_eg{Product.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1576602699741" units="1" version="1.0"/>
+</session>

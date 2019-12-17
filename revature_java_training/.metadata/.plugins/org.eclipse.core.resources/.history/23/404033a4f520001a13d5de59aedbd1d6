@@ -1,0 +1,8 @@
+package eg1;
+
+public class WhatsAppV1 {
+
+	public void messaging() {
+		System.out.println("text messages from V1");
+	}
+}

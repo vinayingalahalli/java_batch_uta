@@ -1,0 +1,16 @@
+package example;
+
+public class Calculator {
+
+	int a;
+	int b;
+	
+ public Calculator(String name) {
+	 System.out.println("Name : "+name);
+ }
+ 
+ public Calculator(int x,int y) {
+	 a=x;
+	 b=y;
+ }
+}

@@ -1,0 +1,21 @@
+package example;
+
+public class Calculator {
+
+	int a;
+	int b;
+	
+ public Calculator(String name) {
+	 System.out.println("Name : "+name);
+ }
+ 
+ public Calculator(int a,int b) {
+	 this.a=a; //variable shadowing
+	 this.b=b;
+ }
+ 
+ public int add() {
+	 return a+b;
+ }
+ 
+}

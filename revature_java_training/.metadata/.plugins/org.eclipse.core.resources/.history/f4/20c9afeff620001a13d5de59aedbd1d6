@@ -1,0 +1,16 @@
+package eg2;
+
+public class Player extends Person {
+
+	private String teamName;
+	private long score;
+	public Player() {
+		// TODO Auto-generated constructor stub
+	}
+	public Player(int id, String name, String teamName, long score) {
+		super(id, name);
+		this.teamName = teamName;
+		this.score = score;
+	}
+	
+}

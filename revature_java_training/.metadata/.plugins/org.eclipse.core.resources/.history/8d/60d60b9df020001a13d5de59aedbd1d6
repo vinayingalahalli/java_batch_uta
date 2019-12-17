@@ -1,0 +1,15 @@
+package eg;
+
+public class Product {
+
+	private int id;
+	private String name;
+	private double price;
+	
+	
+	public void printProduct() {
+		System.out.println("Id = "+id);
+		System.out.println("Name = "+name);
+		System.out.println("Price = "+price);
+	}
+}
