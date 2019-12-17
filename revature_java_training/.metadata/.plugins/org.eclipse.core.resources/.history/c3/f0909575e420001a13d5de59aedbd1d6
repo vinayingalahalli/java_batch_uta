@@ -1,0 +1,10 @@
+package static_nonstatic_eg;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

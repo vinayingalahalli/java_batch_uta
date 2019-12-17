@@ -14,7 +14,7 @@ public class Hello {
 		Demo d=new Demo();
 		d.demoHello();
 		
-		new Demo().demoHello(); //inline object creation
+		new Demo().demoHello();
 	}
 	
 	public static void iAmStatic() {

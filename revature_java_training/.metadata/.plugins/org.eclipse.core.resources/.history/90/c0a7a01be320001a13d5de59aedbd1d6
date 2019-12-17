@@ -9,12 +9,6 @@ public class Hello {
 		
 		Hello h=new Hello();
 		h.iamNonStatic();
-		h.iAmStatic(); //not recommended
-		
-		Demo d=new Demo();
-		d.demoHello();
-		
-		new Demo().demoHello(); //inline object creation
 	}
 	
 	public static void iAmStatic() {
