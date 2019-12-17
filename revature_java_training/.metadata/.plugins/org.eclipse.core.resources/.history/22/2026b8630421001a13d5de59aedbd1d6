@@ -1,0 +1,7 @@
+package eg3;
+
+public class Employee extends Person {
+
+	private Organization organization;
+	private double salary;
+}

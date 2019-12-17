@@ -1,0 +1,22 @@
+package eg3;
+
+public class Main {
+
+	public static void main(String[] args) {
+	Team t1=new Team(100, "Kapil", "India");
+		
+		Player p=new Player(100, "Sachin", t1, 100);
+		p.printPlayer();
+		
+		Player p1=new Player(101, "raj", t1, 99);
+		System.out.println("\n");
+		p1.printPlayer();
+		
+		System.out.println("\n");
+		Organization o=new Organization(999, "Revature");
+		Employee e=new Employee(900000, "Mehrab", o, 10000.00);
+		e.printEmployee();
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package override_objectclass;
+
+public class Player {
+
+	private int id;
+	private String name;
+	public Player() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

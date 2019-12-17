@@ -1,0 +1,8 @@
+package eg3;
+
+public class Team {
+
+	private int teamId;
+	private String coachName;
+	private String teamName;
+}

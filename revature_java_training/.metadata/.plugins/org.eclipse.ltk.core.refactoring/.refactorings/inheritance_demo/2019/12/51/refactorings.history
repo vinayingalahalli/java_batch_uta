@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;inheritance_demo/src/eg3&apos;&#x0D;&#x0A;- Original project: &apos;inheritance_demo&apos;&#x0D;&#x0A;- Destination element: &apos;inheritance_demo/src/eg3&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     eg2.Main.java&#x0D;&#x0A;     eg2.Person.java&#x0D;&#x0A;     eg2.Player.java" description="Copy compilation units" destination="/src&lt;eg3" element1="/src&lt;eg2{Main.java" element2="/src&lt;eg2{Person.java" element3="/src&lt;eg2{Player.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1576610503112" units="3" version="1.0"/>
+</session>
