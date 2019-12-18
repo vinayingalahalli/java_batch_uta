@@ -1,0 +1,10 @@
+package eg2;
+
+public class Presenter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

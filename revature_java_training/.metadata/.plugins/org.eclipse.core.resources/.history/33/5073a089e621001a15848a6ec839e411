@@ -1,0 +1,21 @@
+package eg1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		int b=0;
+		int res=0;
+		try {
+		res=a/b;
+		System.out.println("Result is "+res);
+		}catch(ArithmeticException e) {
+			System.out.println("Cannot divide by zero");
+		}
+		
+		System.out.println("Print me too");
+
+	}
+
+}

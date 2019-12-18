@@ -1,0 +1,12 @@
+package eg2;
+
+public class Presenter {
+
+	public static void main(String[] args) {
+	
+		Opener o=new Opener();
+		o.openFile("hello.txt");
+
+	}
+
+}

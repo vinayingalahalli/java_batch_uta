@@ -1,0 +1,10 @@
+package eg2;
+
+import java.io.FileInputStream;
+
+public class Opener {
+
+	public void openFile(String fileName) {
+		FileInputStream fis=new FileInputStream(fileName);
+	}
+}

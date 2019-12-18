@@ -1,0 +1,11 @@
+package custom;
+
+public class Validator {
+
+	public boolean isValidUsNumber(String contact) {
+		if(contact.matches("\\+1-[0-9]{10}")) {
+			throw new InvalidMobileException("Entered contact "+contact+" is not a valid US number");
+		}
+		return true;
+	}
+}
