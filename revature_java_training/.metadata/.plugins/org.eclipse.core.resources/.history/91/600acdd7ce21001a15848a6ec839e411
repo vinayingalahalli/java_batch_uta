@@ -1,0 +1,17 @@
+package example1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		String s="hello";
+		System.out.println(s.equals("Hello"));
+		System.out.println(s.equals("hello"));
+		System.out.println(s.equalsIgnoreCase("HEllo"));
+		System.out.println(s.toUpperCase());
+		System.out.println(s);
+		System.out.println(s.length());
+		System.out.println(s.charAt(0));
+
+	}
+
+}

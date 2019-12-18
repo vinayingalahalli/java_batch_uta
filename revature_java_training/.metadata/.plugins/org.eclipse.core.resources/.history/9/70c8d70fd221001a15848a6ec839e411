@@ -1,0 +1,29 @@
+package example1;
+
+public class RegEx {
+
+	public static void main(String[] args) {
+		/*
+		 * RegEx - regular Expression
+		 * Pattern Matching Algo
+		 * [] - represents expression
+		 * {} - length
+		 * ^ - not
+		 * [0-9]{3} - any 3 digits
+		 * [a-z]{5,10} - any word of min length 5 and max length of 10
+		 * [A-Z]{1,} - min 1 uppercase letter and max can be any
+		 * [^0-9] - apart from digits
+		 *   +?. () - explore
+		 */
+		
+		String s="H8elLLOO 123@##)_Hi  K";
+		System.out.println(s.replaceAll("[a-zA-Z]", ""));
+		
+		
+		
+		
+		
+
+	}
+
+}

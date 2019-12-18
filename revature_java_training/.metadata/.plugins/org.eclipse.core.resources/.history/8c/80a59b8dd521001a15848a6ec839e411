@@ -1,0 +1,18 @@
+package buf_build_demo;
+
+public class BufBuilderDemo {
+
+	public static void main(String[] args) {
+	
+		StringBuilder sb=new StringBuilder("hello");
+		System.out.println(sb);
+		sb.append(true).append(123.45).append("heyyy").append('c');
+		System.out.println(sb);
+		sb.insert(2, "JAVA");
+		System.out.println(sb);
+		sb.delete(7, 9);
+		System.out.println(sb);
+		
+	}
+
+}
