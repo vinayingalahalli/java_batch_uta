@@ -1,0 +1,5 @@
+package eg1;
+
+public interface Interface2 {
+
+}

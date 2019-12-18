@@ -1,0 +1,13 @@
+package lambda_functional_java8;
+
+public class LambdaExpressionMain {
+
+	public static void main(String[] args) {
+		
+		HelloFunctional f=()->{
+			System.out.println("Hello from Lambda");
+		};
+
+	}
+
+}

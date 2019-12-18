@@ -195,7 +195,7 @@ which has been written in any of parent(ancestors) will be given to
 child where child doesnt have to rewrite it but it has a power to modify it
 which will be covered in polymorphism.
 * Basically you can create the object for a child class and access all the 
-properties of a chils as well as its ancestors.
+properties of a childs as well as its ancestors.
 * in java by default all the classes are subclass. i.e all the
 classes in java has a parent by default who is java.lang.Object which
 is super class of all the java classes.
@@ -286,7 +286,7 @@ x++; // will throw me an error as final variables are non modifiable.
 abstarct data refers to that data whose implementation details
 are hidden.
 the customer or end user is never intrested in how the features are
-implemented, he will be intrested in weather the feature is given to him
+implemented, he will be interested in weather the feature is given to him
 or not, hiding up of such implementation details is what is called as abstraction.
 
 abstraction in java can be acheived or done in 2 ways
@@ -331,11 +331,11 @@ any number of times.
 anonymous interface, and you can also extend a interface by other interface.
 * use implements keyword to implement any interface.
 there are types of interfaces
-1)Normal Interface -> interface with many abstract methods in it.
-2)Functional Interface -> Interface with only and only one abstract method.
+1)Normal Interface -> interface with many abstract methods in it.(Eg Collection, List, Set)
+2)Functional Interface(SAM) -> Interface with only and only one abstract method.(Eg Runnable, Comparable, Comparator)
 3)Marker Interface -> Interface with no abstract methods at all, which
 		is used for compiler to mark that it does some job.
-
+		(Eg: Serializable,Clonable)
 
 Wrapper Classes
 ------------------------
