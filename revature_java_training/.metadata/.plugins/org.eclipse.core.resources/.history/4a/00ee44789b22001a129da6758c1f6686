@@ -1,0 +1,20 @@
+package eg1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Map<Integer, String> hm=new HashMap<>();
+		hm.put(122, "java");
+		hm.put(100, "jee");
+		hm.put(112, "jme");
+		hm.put(12, "python");
+		hm.put(null, null);
+		hm.put(128, null);
+		System.out.println(hm);
+
+	}
+
+}
