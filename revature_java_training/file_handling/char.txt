@@ -1,0 +1,3 @@
+hello good evening
+no need of conversion when with char stream
+very much useful for UNICODE char set

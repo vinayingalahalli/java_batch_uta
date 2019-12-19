@@ -1,0 +1,11 @@
+package eg;
+
+public class Serialize {
+
+	public static void main(String[] args) {
+		CreditCard cc=new CreditCard(1234567890123456L, "kevin", "MyBank", 100);
+		
+
+	}
+
+}

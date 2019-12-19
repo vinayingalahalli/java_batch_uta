@@ -1,0 +1,13 @@
+package eg;
+
+public class CreditCard {
+
+	private long ccNumber;
+	private String cardHolderName;
+	private String bankName;
+	private int cvv;
+	
+	public CreditCard() {
+		// TODO Auto-generated constructor stub
+	}
+}

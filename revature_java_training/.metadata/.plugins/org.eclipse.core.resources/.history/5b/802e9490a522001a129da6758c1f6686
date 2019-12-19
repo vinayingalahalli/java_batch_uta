@@ -1,0 +1,16 @@
+package byte_demo;
+
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+
+public class FileOutByteDemo {
+
+	public static void main(String[] args) {
+		FileOutputStream fos=null;
+		BufferedOutputStream bos=null;
+		
+		fos=new FileOutputStream("data.txt");
+
+	}
+
+}
