@@ -1,0 +1,40 @@
+package eg1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		List lis=new ArrayList();
+		lis.add("heyy");
+		lis.add(1111);
+		lis.add(null);
+		lis.add(true);
+		lis.add(null);
+		lis.add(111);
+		lis.add(22.333);
+		System.out.println(lis);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package real_world_objects;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FlightMain {
+
+	public static void main(String[] args) {
+
+		List<Flight> flightsList = new ArrayList<>();
+		flightsList.add(new Flight(100, "abc", 212.33, 2.3f));
+		flightsList.add(new Flight(190, "xyz", 120.33, 2.3f));
+		flightsList.add(new Flight(101, "abc", 121.33, 1.3f));
+		flightsList.add(new Flight(120, "pqr", 122.33, 2.3f));
+		flightsList.add(new Flight(110, "java", 112.33, 4.3f));
+		flightsList.add(new Flight(109, "jee", 120.33, 4.9f));
+
+	}
+
+	public static void printFlights(List<Flight> flightList) {
+		for (int i = 0; i < flightList.size(); i++) {
+			System.out.println(flightList.get(i));
+		}
+	}
+
+}

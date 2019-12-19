@@ -1,0 +1,7 @@
+package real_world_objects;
+
+import java.util.Comparator;
+
+public class FlightNameComparator implements Comparator<Flight>{
+
+}

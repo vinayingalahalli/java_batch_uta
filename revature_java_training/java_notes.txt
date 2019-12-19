@@ -452,7 +452,7 @@ used to create the exception object of our own to throw our own customised
 exception with our own customised message.
 
 
-Collection F/w
+Collections F/w
 ----------------------
 1)all the collections are resizable.
 2)all the collections are dynamic.
