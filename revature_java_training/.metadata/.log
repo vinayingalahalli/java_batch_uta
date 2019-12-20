@@ -7933,3 +7933,354 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 02:51:07.419
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qsEbBYNT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 02:51:07.427
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qsEbBYNT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 02:51:07.434
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 02:51:07.440
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qsEbBYNT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:27.229
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:27.257
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6778ce6a[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:27.266
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.655
+!MESSAGE Boot LS startup time from start to initialized: 2380ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.684
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UlPduTnWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.690
+!MESSAGE subscribing to classpath changes: sts4.classpath.UlPduTnW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.698
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.704
+!MESSAGE subsribers = {sts4.classpath.UlPduTnW=Send Classpath Notifications(1759)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.712
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.720
+!MESSAGE project log4j_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.732
+!MESSAGE project abstract_class_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.743
+!MESSAGE Preparing classpath changed notification log4j_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.751
+!MESSAGE project constructor_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.763
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.775
+!MESSAGE project date_time_api ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.786
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.797
+!MESSAGE project encapsulation_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.806
+!MESSAGE buffering callback sts4.classpath.UlPduTnW log4j_demo false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.819
+!MESSAGE project exception_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.828
+!MESSAGE Preparing classpath changed notification abstract_class_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.836
+!MESSAGE project file_handling ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.848
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.861
+!MESSAGE project inheritance_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.870
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.880
+!MESSAGE project interface_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.891
+!MESSAGE buffering callback sts4.classpath.UlPduTnW abstract_class_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.901
+!MESSAGE project junit_test_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.910
+!MESSAGE Preparing classpath changed notification constructor_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.921
+!MESSAGE project list_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.931
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.940
+!MESSAGE project maps_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.952
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.964
+!MESSAGE project myfirstjavaproject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.973
+!MESSAGE buffering callback sts4.classpath.UlPduTnW constructor_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.986
+!MESSAGE project polymorph_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:29.994
+!MESSAGE Preparing classpath changed notification date_time_api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.003
+!MESSAGE project reading_inputs_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.016
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.026
+!MESSAGE project serialization_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.035
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.047
+!MESSAGE project set_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.058
+!MESSAGE buffering callback sts4.classpath.UlPduTnW date_time_api false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.068
+!MESSAGE project string_api_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.082
+!MESSAGE Preparing classpath changed notification encapsulation_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.093
+!MESSAGE project thread_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.104
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.114
+!MESSAGE project wrapper_demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.121
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.132
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.145
+!MESSAGE buffering callback sts4.classpath.UlPduTnW encapsulation_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.154
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UlPduTnW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.164
+!MESSAGE Preparing classpath changed notification exception_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.175
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.187
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.201
+!MESSAGE buffering callback sts4.classpath.UlPduTnW exception_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.212
+!MESSAGE Preparing classpath changed notification file_handling
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.227
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.241
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.254
+!MESSAGE buffering callback sts4.classpath.UlPduTnW file_handling false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.266
+!MESSAGE Preparing classpath changed notification inheritance_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.277
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.293
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.305
+!MESSAGE buffering callback sts4.classpath.UlPduTnW inheritance_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.314
+!MESSAGE Preparing classpath changed notification interface_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.327
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.336
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.344
+!MESSAGE buffering callback sts4.classpath.UlPduTnW interface_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.352
+!MESSAGE Preparing classpath changed notification junit_test_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.359
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.370
+!MESSAGE classpath=33 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.382
+!MESSAGE buffering callback sts4.classpath.UlPduTnW junit_test_demo false 33
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.392
+!MESSAGE Preparing classpath changed notification list_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.403
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.418
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.429
+!MESSAGE buffering callback sts4.classpath.UlPduTnW list_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.440
+!MESSAGE Preparing classpath changed notification maps_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.449
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.462
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.473
+!MESSAGE buffering callback sts4.classpath.UlPduTnW maps_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.483
+!MESSAGE Preparing classpath changed notification myfirstjavaproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.494
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.507
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.521
+!MESSAGE buffering callback sts4.classpath.UlPduTnW myfirstjavaproject false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.531
+!MESSAGE Preparing classpath changed notification polymorph_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.541
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.551
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.562
+!MESSAGE buffering callback sts4.classpath.UlPduTnW polymorph_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.572
+!MESSAGE Preparing classpath changed notification reading_inputs_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.580
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.594
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.601
+!MESSAGE buffering callback sts4.classpath.UlPduTnW reading_inputs_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.616
+!MESSAGE Preparing classpath changed notification serialization_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.626
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.636
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.649
+!MESSAGE buffering callback sts4.classpath.UlPduTnW serialization_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.662
+!MESSAGE Preparing classpath changed notification set_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.667
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.677
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.688
+!MESSAGE buffering callback sts4.classpath.UlPduTnW set_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.697
+!MESSAGE Preparing classpath changed notification string_api_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.705
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.721
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.733
+!MESSAGE buffering callback sts4.classpath.UlPduTnW string_api_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.740
+!MESSAGE Preparing classpath changed notification thread_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.751
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.764
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.776
+!MESSAGE buffering callback sts4.classpath.UlPduTnW thread_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.785
+!MESSAGE Preparing classpath changed notification wrapper_demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.797
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.809
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.819
+!MESSAGE buffering callback sts4.classpath.UlPduTnW wrapper_demo false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.831
+!MESSAGE executing callback sts4.classpath.UlPduTnW 20 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-21 03:22:30.915
+!MESSAGE executing callback sts4.classpath.UlPduTnW SUCCESS [done]
