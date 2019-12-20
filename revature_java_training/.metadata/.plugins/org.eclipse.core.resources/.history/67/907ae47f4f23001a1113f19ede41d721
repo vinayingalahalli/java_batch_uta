@@ -1,0 +1,13 @@
+package eg;
+
+import java.time.LocalDate;
+
+public class TimeApi {
+
+	public static void main(String[] args) {
+		LocalDate ld=LocalDate.now();
+		System.out.println(ld);
+
+	}
+
+}

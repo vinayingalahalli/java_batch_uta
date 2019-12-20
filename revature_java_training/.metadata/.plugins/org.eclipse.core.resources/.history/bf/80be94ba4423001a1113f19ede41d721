@@ -1,0 +1,9 @@
+package synch_eg;
+
+public class Printer {
+
+	public static void printMessages(Message message) {
+		System.out.print(message.getMessage1());
+		Thread.sleep(2500);
+	}
+}

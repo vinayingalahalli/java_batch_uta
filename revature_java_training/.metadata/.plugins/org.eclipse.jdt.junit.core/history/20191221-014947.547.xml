@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JunitTestDemo" project="junit_test_demo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.test.JunitTestDemo" time="0.0" displayname="JunitTestDemo" uniqueid="[engine:junit-vintage]/[runner:com.test.JunitTestDemo]">
+    <testcase name="testSum" classname="com.test.JunitTestDemo" time="0.0" displayname="testSum" uniqueid="[engine:junit-vintage]/[runner:com.test.JunitTestDemo]/[test:testSum(com.test.JunitTestDemo)]"/>
+    <testcase name="testHello" classname="com.test.JunitTestDemo" time="0.0" displayname="testHello" uniqueid="[engine:junit-vintage]/[runner:com.test.JunitTestDemo]/[test:testHello(com.test.JunitTestDemo)]"/>
+  </testsuite>
+</testrun>

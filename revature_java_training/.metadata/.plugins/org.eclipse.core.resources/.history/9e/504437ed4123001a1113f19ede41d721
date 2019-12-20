@@ -1,0 +1,15 @@
+package by_thread_class;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Thread.currentThread());
+		Thread t=Thread.currentThread();
+		t.setPriority(8);
+		t.setName("my_main");
+		System.out.println(Thread.currentThread());
+
+	}
+
+}

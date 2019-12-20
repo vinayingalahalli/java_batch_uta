@@ -1,0 +1,7 @@
+package synch_eg;
+
+public class Message {
+
+	private String message1;
+	private String message2;
+}

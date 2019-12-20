@@ -1,0 +1,15 @@
+package eg;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class TimeApi {
+
+	public static void main(String[] args) {
+		LocalDate ld1=LocalDate.now();
+		System.out.println(ld1);
+		LocalDate ld2=LocalDate.parse("10.10.2010",DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+
+	}
+
+}
