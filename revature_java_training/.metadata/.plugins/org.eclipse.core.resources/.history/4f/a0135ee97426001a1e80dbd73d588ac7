@@ -1,0 +1,30 @@
+package eg1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class HelloJdbc {
+
+	public static void main(String[] args) {
+		
+		Connection connection=null;
+		
+		try {
+			//Step 1 - Load Driver
+			Class.forName("oracle.jdbc.OracleDriver");
+			System.out.println("Driver Loaded");
+			
+			//Step2- Open Connection
+			String url="jdbc:oracle:thin:@localhost:1521:xe";
+			String username="java";
+			String password="java";
+			connection=DriverManager.getConnection(url, username, password);
+			System.out.println("Connection successfull");
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+		}
+
+	}
+
+}
