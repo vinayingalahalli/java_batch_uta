@@ -1,0 +1,12 @@
+package insert_demo;
+
+public class ManufacturerDAO {
+
+	
+	public int registerManufacturer(Manufacturer manufacturer) {
+		int c=0;
+		
+		return c;
+		
+	}
+}

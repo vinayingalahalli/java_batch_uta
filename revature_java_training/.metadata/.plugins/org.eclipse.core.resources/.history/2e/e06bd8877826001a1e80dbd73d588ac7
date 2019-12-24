@@ -1,0 +1,21 @@
+package insert_demo;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.dbutil.OracleConnection;
+
+public class ManufacturerDAO {
+
+	
+	public int registerManufacturer(Manufacturer manufacturer) throws Exception {
+		int c=0;
+		try(Connection connection=OracleConnection.getConnection()){
+			
+		} catch (ClassNotFoundException | SQLException e) {
+		throw new Exception("Internal error occured");
+		}
+		return c;
+		
+	}
+}
