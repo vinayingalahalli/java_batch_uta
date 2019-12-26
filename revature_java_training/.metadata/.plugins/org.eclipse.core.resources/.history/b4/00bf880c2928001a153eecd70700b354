@@ -1,0 +1,58 @@
+--sequence
+
+   CREATE SEQUENCE  "JAVA"."PLAYER_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1020 CACHE 20 NOORDER  NOCYCLE ;
+
+
+
+CREATE OR REPLACE PROCEDURE REGISTERPLAYER 
+(
+  ID OUT VARCHAR2 
+, NAME IN VARCHAR2 
+, DOB IN DATE 
+, CITY IN VARCHAR2 
+, GENDER IN VARCHAR2 
+, v_TNAME IN VARCHAR2 
+) AS 
+v_tid number;
+BEGIN
+ select 'PL'||Upper(substr(v_tname,0,2))||substr(EXTRACT(YEAR FROM (dob)),3)||player_seq.nextval into id 
+ from dual;
+ select tid into v_tid from team where tname=v_tname;
+insert into player(id,name,dob,city,gender,tid) values(id,name,dob,city,gender,v_tid);
+END REGISTERPLAYER;
+
+
+
+
+
+
+
+-- for execution
+DECLARE
+  ID VARCHAR2(200);
+  NAME VARCHAR2(200);
+  DOB DATE;
+  CITY VARCHAR2(200);
+  GENDER VARCHAR2(200);
+  V_TNAME VARCHAR2(200);
+BEGIN
+  NAME := 'girish';
+  DOB := TO_DATE('2003/07/09', 'yyyy/mm/dd');
+  CITY := 'bangalore';
+  GENDER := 'M';
+  V_TNAME := 'India';
+
+  REGISTERPLAYER(
+    ID => ID,
+    NAME => NAME,
+    DOB => DOB,
+    CITY => CITY,
+    GENDER => GENDER,
+    V_TNAME => V_TNAME
+  );
+  /* Legacy output: 
+DBMS_OUTPUT.PUT_LINE('ID = ' || ID);
+*/ 
+  :ID := ID;
+--rollback; 
+END;
