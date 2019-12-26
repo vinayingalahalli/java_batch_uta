@@ -1,0 +1,15 @@
+package com.to;
+
+import java.util.Date;
+
+public class Player {
+private int id;
+private String name;
+private Date dob;
+private String city;
+private String gender;
+private Team team;
+public Player() {
+	// TODO Auto-generated constructor stub
+}
+}

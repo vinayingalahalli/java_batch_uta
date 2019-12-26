@@ -1,0 +1,15 @@
+package com.dao;
+
+import java.util.List;
+
+import com.to.Team;
+
+public class TeamDaoImpl implements TeamDAO{
+
+	@Override
+	public List<Team> getAllTeamList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

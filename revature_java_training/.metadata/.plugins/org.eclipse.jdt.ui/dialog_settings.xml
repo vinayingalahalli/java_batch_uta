@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="E:\softs\apache-log4j-1.2.17"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>

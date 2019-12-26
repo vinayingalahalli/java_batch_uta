@@ -1,0 +1,8 @@
+package com.dao;
+
+import java.util.List;
+
+public interface TeamDAO {
+
+	public List<Team> getAllTeamList();
+}

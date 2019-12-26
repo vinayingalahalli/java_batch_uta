@@ -1,0 +1,24 @@
+CREATE OR REPLACE PROCEDURE REGISTERPLAYER 
+(
+  ID OUT VARCHAR2 
+, NAME IN VARCHAR2 
+, DOB IN DATE 
+, CITY IN VARCHAR2 
+, GENDER IN VARCHAR2 
+, v_TNAME IN VARCHAR2 
+) AS 
+v_tid number;
+BEGIN
+ select 'PL'||Upper(substr(v_tname,0,2))||substr(EXTRACT(YEAR FROM (dob)),3)||player_seq.nextval into id 
+ from dual;
+ select tid into v_tid from team where tname=v_tname;
+insert into player(id,name,dob,city,gender,tid) values(id,name,dob,city,gender,v_tid);
+END REGISTERPLAYER;
+
+
+
+
+
+
+
+

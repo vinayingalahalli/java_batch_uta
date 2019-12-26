@@ -1,9 +1,0 @@
-package static_nonstatic_eg;
-
-public class Product {
-
-	int id;
-	String name;
-	double price;
-	static float discount;
-}

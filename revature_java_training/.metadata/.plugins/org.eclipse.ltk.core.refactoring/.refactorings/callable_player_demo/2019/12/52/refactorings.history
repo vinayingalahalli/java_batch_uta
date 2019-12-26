@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;callable_player_demo/playerprocedure.sql&apos; to &apos;playerprocedure.txt&apos;" description="Rename resource &apos;playerprocedure.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="playerprocedure.sql" name="playerprocedure.txt" stamp="1577395417092" updateReferences="true"/>
+</session>

@@ -1,8 +1,0 @@
-package eg2;
-
-public class Player extends Person {
-
-	private String teamName;
-	private long score;
-	
-}

@@ -1,0 +1,10 @@
+package com.to;
+
+public class Team {
+private int tid;
+private String tname;
+public Team() {
+	// TODO Auto-generated constructor stub
+}
+
+}
