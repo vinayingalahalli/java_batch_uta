@@ -1,0 +1,59 @@
+package com.search.bo.impl;
+
+import java.util.List;
+
+import com.search.bo.PlayerSearchBO;
+import com.search.dao.PlayerSearchDAO;
+import com.search.dao.impl.PlayerSearchDaoImpl;
+import com.search.exception.BusinessException;
+import com.search.to.Player;
+
+public class PlayerSearchBoImpl implements PlayerSearchBO {
+private PlayerSearchDAO dao;
+
+	@Override
+	public Player getPlayerById(String id) throws BusinessException {
+		Player player=null;
+		if(id.matches("PL[A-Z]{2}[0-9]{6}")) {
+			//code here for DAO
+			player=getDao().getPlayerById(id);
+		}else {
+			throw new BusinessException("Entered PlayerID "+id+" is invalid");
+		}
+		return player;
+	}
+
+	@Override
+	public List<Player> getPlayersByName(String name) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Player> getPlayersByDob(String dob) throws BusinessException {
+		List<Player> playerList=null;
+		return playerList;
+	}
+
+	@Override
+	public List<Player> getPlayersByGender(String gender) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Player> getPlayersByTeamName(String teamName) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public PlayerSearchDAO getDao() {
+		if(dao==null) {
+			dao=new PlayerSearchDaoImpl();
+		}
+		return dao;
+	}
+
+	
+
+}

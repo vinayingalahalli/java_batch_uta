@@ -1,0 +1,7 @@
+package com.search.bo.impl;
+
+import com.search.bo.PlayerSearchBO;
+
+public class PlayerSearchBoImpl implements PlayerSearchBO {
+
+}

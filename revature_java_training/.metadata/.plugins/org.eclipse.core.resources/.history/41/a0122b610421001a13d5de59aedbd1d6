@@ -1,5 +1,0 @@
-package eg3;
-
-public class Employee extends Person {
-
-}

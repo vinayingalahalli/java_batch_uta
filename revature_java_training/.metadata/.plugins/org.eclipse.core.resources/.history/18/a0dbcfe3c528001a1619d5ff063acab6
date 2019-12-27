@@ -1,0 +1,5 @@
+package com.search.bo;
+
+public interface PlayerSearchBO {
+
+}

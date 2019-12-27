@@ -1,9 +1,0 @@
-package custom;
-
-public class Validator {
-
-	public boolean isValidUsNumber(String contact) {
-		
-		return true;
-	}
-}

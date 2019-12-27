@@ -1,0 +1,13 @@
+package com.search.main;
+
+import org.apache.log4j.Logger;
+
+public class PlayerMain {
+
+	Logger log=Logger.getLogger(PlayerMain.class);
+	public static void main(String[] args) {
+		
+
+	}
+
+}

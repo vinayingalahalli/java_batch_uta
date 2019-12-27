@@ -1,6 +1,0 @@
-package example;
-
-public abstract class RevatureEmployee extends EMS{
-
-	public abstract void requirement1();
-}

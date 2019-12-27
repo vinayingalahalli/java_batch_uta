@@ -1,6 +1,0 @@
-package example;
-
-public abstract class EMS {
-
-	//public abstract void addEmployee();
-}
