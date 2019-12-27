@@ -1,5 +1,0 @@
-package by_runnable;
-
-public class RunThread implements Runnable {
-
-}

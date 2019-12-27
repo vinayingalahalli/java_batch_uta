@@ -1,0 +1,11 @@
+2019-12-27 23:54:04 INFO  PlayerMain:21 - Welcome to Player Search App V1.0
+2019-12-27 23:54:04 INFO  PlayerMain:22 - -----------------------------------
+2019-12-27 23:54:04 INFO  PlayerMain:26 - Choose option to search Player with below criteria
+2019-12-27 23:54:04 INFO  PlayerMain:27 - 1)By id
+2019-12-27 23:54:04 INFO  PlayerMain:28 - 2)By name
+2019-12-27 23:54:04 INFO  PlayerMain:29 - 3)By dob
+2019-12-27 23:54:04 INFO  PlayerMain:30 - 4)By gender
+2019-12-27 23:54:04 INFO  PlayerMain:31 - 5)By teamname
+2019-12-27 23:54:04 INFO  PlayerMain:32 - 6)Exit
+2019-12-27 23:54:04 INFO  PlayerMain:33 - Enter appropriate choice between(1-6)
+2019-12-27 23:54:09 INFO  PlayerMain:102 - Thank you for using our player app :)

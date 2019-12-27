@@ -11318,3 +11318,15 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-27 23:54:36.101
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dTpSBmbg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-27 23:54:36.113
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dTpSBmbg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-27 23:54:36.123
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-27 23:54:36.135
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dTpSBmbg => OK
