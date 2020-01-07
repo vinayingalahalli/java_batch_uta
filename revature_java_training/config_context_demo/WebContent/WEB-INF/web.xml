@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>config_context_demo</display-name>
+  <context-param>
+  <param-name>driver</param-name>
+  <param-value>oracle.jdbc.OracleDriver</param-value>
+  </context-param>
+  <context-param>
+  <param-name>url</param-name>
+  <param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+  </context-param>
+  <context-param>
+  <param-name>username</param-name>
+  <param-value>java1</param-value>
+  </context-param>
+  <servlet>
+    <description></description>
+    <display-name>Servlet1</display-name>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>com.myservlets.Servlet1</servlet-class>
+    <init-param>
+    <param-name>query1</param-name>
+    <param-value>select * from emp</param-value>
+    </init-param>
+    <init-param>
+    <param-name>query2</param-name>
+    <param-value>select * from empAgain2</param-value>
+    </init-param>
+    <init-param>
+    <param-name>query3</param-name>
+    <param-value>select * from empAgain3</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/Servlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Servlet2</display-name>
+    <servlet-name>Servlet2</servlet-name>
+    <servlet-class>com.myservlets.Servlet2</servlet-class>
+    <init-param>
+    <param-name>query1</param-name>
+    <param-value>select * from student_tbl</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet2</servlet-name>
+    <url-pattern>/Servlet2</url-pattern>
+  </servlet-mapping>
+</web-app>
