@@ -1,7 +1,0 @@
-package com.search.dao.impl;
-
-import com.search.dao.PlayerSearchDAO;
-
-public class PlayerSearchDaoImpl implements PlayerSearchDAO{
-
-}
