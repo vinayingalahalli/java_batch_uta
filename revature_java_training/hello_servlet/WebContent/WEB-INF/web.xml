@@ -11,7 +11,17 @@
   <servlet-mapping>
     <servlet-name>MyServlet</servlet-name>
     <url-pattern>/abc</url-pattern>
-     <url-pattern>/myget</url-pattern>
-      <url-pattern>/mypost</url-pattern>
+    <url-pattern>/myget</url-pattern>
+    <url-pattern>/mypost</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TestServlet</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.app.servlets.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
   </servlet-mapping>
 </web-app>
