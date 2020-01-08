@@ -1,25 +1,27 @@
 package com.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
-
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.to.User;
+
 /**
- * Servlet implementation class SuccessServlet
+ * Servlet implementation class FirstServlet
  */
-public class SuccessServlet extends HttpServlet {
+@WebServlet("/first")
+public class FirstServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public SuccessServlet() {
+    public FirstServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,17 +30,15 @@ public class SuccessServlet extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		HttpSession session=request.getSession(false);
-		response.setContentType("text/html");
-		PrintWriter out=response.getWriter();
-		if(session!=null) {
-		out.print("<h2>Welcome "+session.getAttribute("username")+"</h2>");
-		out.print("<h3>You have logged in successfully at "+new Date()+"</h3>");
-		out.print("<a href='logoff'>LOGOUT</a>");
-		}else {
-			out.print("<h4>You need to Login First</h4>");
-			out.print("<a href='/login_webapp_demo'>Click here to Login</a>");
-		}
+		User user=new User();
+		user.setFirstName(request.getParameter("firstName"));
+		user.setLastName(request.getParameter("lastName"));
+		user.setCity(request.getParameter("city"));
+		
+		HttpSession session=request.getSession();
+		session.setAttribute("user", user);
+		
+		response.sendRedirect("two.html");
 	}
 
 }

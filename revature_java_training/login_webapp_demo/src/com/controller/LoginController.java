@@ -8,6 +8,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.bo.impl.UserBoImpl;
 import com.exception.BusinessException;
@@ -40,8 +41,11 @@ public class LoginController extends HttpServlet {
 		user.setPassword(request.getParameter("password"));
 		
 		if(new UserBoImpl().isValidUser(user)) {
-			rd=request.getRequestDispatcher("success");
-			rd.forward(request, response);
+//			rd=request.getRequestDispatcher("success");
+//			rd.forward(request, response);
+			HttpSession session=request.getSession();
+			session.setAttribute("username", user.getUsername());
+			response.sendRedirect("success");
 		}
 		}catch(NumberFormatException e) {
 			rd=request.getRequestDispatcher("login.html");
