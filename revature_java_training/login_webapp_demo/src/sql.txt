@@ -1,0 +1,35 @@
+CREATE TABLE  "COLLEGE" 
+   (	"ID" NUMBER NOT NULL ENABLE, 
+	"NAME" VARCHAR2(50) NOT NULL ENABLE, 
+	"ADDRESS" VARCHAR2(50) NOT NULL ENABLE, 
+	"CONTACT" NUMBER NOT NULL ENABLE, 
+	 CONSTRAINT "COLLEGE_PK" PRIMARY KEY ("ID") ENABLE
+   ) ;
+
+   
+   
+   
+   
+
+
+ CREATE SEQUENCE   "COLLEGE_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 90005 NOCACHE  NOORDER  NOCYCLE ;
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ create or replace procedure "ADDCOLLEGE"
+(id OUT NUMBER,
+name IN VARCHAR2,
+address IN VARCHAR2,
+contact IN NUMBER)
+is
+    
+begin
+    select college_seq.nextval into id from dual;
+insert into college(id,name,address,contact) values(id,name,address,contact);
+end;​  
