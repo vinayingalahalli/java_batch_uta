@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.business.Prime"/>
-<fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
-<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="eg1.HelloLogger"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
@@ -38,8 +35,6 @@
 <fullyQualifiedTypeName name="com.dao.UserDAO"/>
 <fullyQualifiedTypeName name="com.exception.BusinessException"/>
 <fullyQualifiedTypeName name="com.dao.impl.UserDaoImpl"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.to.User"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="com.bo.impl.UserBoImpl"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
@@ -56,8 +51,13 @@
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 <fullyQualifiedTypeName name="com.college.bo.CollegeBO"/>
 <fullyQualifiedTypeName name="com.college.bo.impl.CollegeBoImpl"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.college.to.College"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.to.User"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>

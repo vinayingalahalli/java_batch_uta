@@ -1,0 +1,299 @@
+What is TypeScript?
+	- Open source language supported by Microsoft
+	- Superset of JavaScript
+	- Transpiles to vanilla JavaScript
+	- Strongly typed
+		- TypeScript type definition files 
+	- Class based object orientation, as supported in ES 2015
+	- Object Oriented Programming Language
+		- Classes, abstract classes, interfaces, generics, static properties 
+	
+What are the basic types in TypeScript?
+	- boolean
+	- number: 64-bit floating point
+	- string
+	- null
+	- undefined 
+	- array
+	- tuple
+	- enum
+	- any
+	- void
+		- When a function has a void return type, it cannot return anything
+		- When a variable has a void type, only null or undefined can be assigned
+	- never => represents a type of values that never occur, or when there is an unreachable end point 
+		- Used when 
+			- a function explicitly throws an error
+			- explicitly failing a unit test
+			- infinite loops
+			
+What are the access modifiers in TypeScript?
+	- public => default if no modifier is given 
+	- protected => properties cannot be accessed outside of the class in which it was defined or any subclass
+	- private => properties cannot be accessed outside of the class in which it was defined 
+	- readonly => must be initialized at declaration or in the constructor
+	
+Setting up our Environment
+	Requires two basic steps
+		- installing Node Package Manager (npm)
+		- Set up the Angular application
+		
+What is NPM?
+	- Node Package Manager is a command line utility that interacts with a repository of open source projects 
+	- "the" package manager for JavaScript
+	- Using NPM we can install libraries, packages, and applications, along with their dependencies
+	- We need npm to install all the libraries to install Angular as well as scripts to transpile our code and launch our Angular applciation
+	
+Setting up an Angular Application (Manually)
+	1. Create an application folder
+	2. Add package definitions and configuration files 
+	3. Install the packages 
+	4. Create the application's root Angular module, because every Angular application requires at least one root module 
+	5. Create the main.ts file to load that Angular module 
+	6. Create the host web page (index.html)
+	
+Luckily, we have some options 
+	- Angular CLI => the recommended tool for building, testing, and deploying your Angular applciation 
+
+What is Angular CLI?
+	- a command line utility which uses Webpack under the hood for building functionality (for creating new projects, components, services, pipes, etc), execute, test, and deploy applications 
+	- $ npm install @angular/cli 
+	
+What is Webpack?
+	- Webpack is a module bundler which bundles files and dependencies into convenient chunks as well as to load those chunks to the server
+	- A bundle in JS is a file that incorporates assets (HTML, CSS, JS, etc) that belong together and should be served to the client in response to a single request
+	
+Angular Directory Structure
+	- by convention, all of our source files are under a file called src
+	- under the src directory, there is an app directory which contains code specific to our application 
+	- we will have sub folders in src/app for each main functionality in our application 
+	
+package.json
+	- Where all of the dependencies of our application is defined, including their version
+	
+To install these dependencies, open a terminal and use the command 'npm install'
+	- This installs all the dependencies given in the package.json file, along with any of their dependencies
+	- a node_modules directory should appear at the same level as the src directory, and this is the location where npm installed the dependencies (large folder, may want to exclude this in a version control software 
+	
+Modules
+	- With JavaScript, there is always the problem with namespaces. If we are not careful, we can end up with variables or functions in the global namespace 
+	- JavaScript didnt provide features to help with code organization
+	- Modules help resolve these issues 
+	- In ES 2015, the standard was set for defining a module. A module is a file, and a file is a module. So, when using ES 2015, we do not need to define or name modules. Just create a file, write some code, and boom the file becomes a module 
+	- Angular leverages ES 2015 modules, so as we create files we create modules for our application 
+	
+ES 2015 Modules 
+	- Suppose we create a file called product.ts, and export a class named Product in that class
+		export class Product {
+		}
+	- This file then becomes a module. Because the class is exported, we can import that class in any other module 
+	- Now suppose we create a file called product-list.ts, we can import the Product class 
+		import { Product } from './product'
+	- This file also becomes a module because we imported something
+	
+Angular Modules 
+	- Help organize an application into cohesive blocks of functionality
+	- Every Angular application has at least one Angular module
+	- By convention, this module is called @Module 
+	- As an application gets more features, we can group those features into their own feature module 
+	- Can even define shared, or common, modules that defines code used by multiple Angular modules 
+	- This keeps the code organized or modular 
+	- In each angular module, we declare the set of components and other files associated with the module, and the dependencies needed by those components 
+	- Each component we create is declared in, and belongs to one, Angular module 
+	
+Difference between ES 2015 Modules and Angular Modules 
+	ES 2015
+		- Code files that import or export something 
+		- Organize our code files 
+		- Modularize our code 
+		- Promote code reuse 
+		
+	Angular Modules 
+		- Code files that organize the application into cohesive blocks of functionality
+		- Organize our application 
+		- Modularize our application 
+		- Promote application boundaries 
+		
+Angular is 
+	- A JavaScript Framework for building client side applications using HTML, CSS, and JavaScript
+	- a complete rewrite of AngularJS, originally called "Angular 2"
+	- Angular 1.x => AngularJS
+	- Angular 2.x or higher => the Angular we are learning
+	
+Why Angular?
+	- Angular makes our HTML expressive, powerful data binding, modularity by design, built in back end integration
+	
+Why a new Angular?
+	- Angular is built for speed, modern takes advantages of ES6 standards, simplified API, enhances productivity
+	
+An Angular application is a set of Components, with services that provide data and functionality across those components 
+
+Each component is comprised of a 
+	Template - HTML for the UI fragment defining a view for the application 
+	Class - Code associated with the view, contains properties for state of the view as well as methods which have behavior to the view, such as a response to a button click
+	Metadata - provides additional information about the component to Angular. Defined with a decorator, which actually defines the class as an Angular component 
+	
+How do we pull these components together into an application?
+	- We define Angular modules. Modules help us organize our components into cohesive chunks of functionality 
+	- Every Angular application has at least one Angular module, called the Root Module (by convention, app.module.ts)
+	
+What is @NgModule and what is bootstrapping?
+	- For anything computer science related, bootstrapping refers to the first piece of code that is loaded. With respect to Angular, we have to tell it which component to load as our root component
+	- We tell Angular which component is our root component in the @NgModule decorator, under the 'bootstrap' property. 
+	- @NgModule is the decorator for the AppModule (app.module.ts), the application's root module. The @NgModule decorator tells Angular how to compile and launch the application, as well as how the application pieces fit together 
+	- There must be at least 1 module per Angular application 
+	
+In what ways can we define a component's template?
+	- inline, single => for a single line template, wrap the HTML code in single or double quotes and assign it to the 'template' property in the @Component decorator 
+	- inline, multiple => for a multi line template, wrap the HTML code in the ES 2015 backticks and assign it to the 'template' property in the @Component decorator
+	- linked => provide the relative URL to the template's layout and assign it to the 'templateUrl' property in the @Component decorator 
+	
+What is a Directive?
+	- a Directive is a custom HTML element or attribute used to power up and extend our HTML 
+	- Directives fall into one of three categories
+		- Component Directive => established in the selector attribute of the @Component decorator 
+		- Structural Directive => changes the structure or layout of a view by manipulating, adding, or removing elements and their children 
+			- *ngIf => takes a boolean expression and makes an entire chunk of the DOM appear or dissapear (exposed in BrowserModule)
+			- *ngFor => used to create for loops, at minimum needs a looping variable and a list (exposed in BrowserModule)
+			- ngSwitch => (actually a set of directives, and ngSwitch is actually an attribute directive since it controls the behavior of *ngSwitchCase and *ngSwitchDefault)
+				- ngSwitch
+				- *ngSwitchCase
+				- *ngSwitchDefault
+		- Attribute Directive => listens to and modifies the behavior of other elements, attributes, properties, and components. However, usually applied to attributes 
+			- NgClass => adds and removes a set of CSS classes 
+			- NgStyle => adds and removes a set of HTML styles
+			- NgModel => allows for two-way data binding to an HTML form element (exposed in FormsModule)
+			
+What is Data Binding?
+	- Data binding is the act of binding an HTML object property to an Angular data object property 
+		- Makes it easy to display properties from our component and set DOM element properties to our class properties 
+		- Components can also listen to events from the DOM and respond as needed to provide an interactive user experience
+		
+How do we achieve data binding?
+	- String Interpolation
+		- inserts properties from the component into the text within HTML elements, or assign element properties 
+		- uses {{ }} and NO QUOTES
+	- Property Binding 
+		- sets an element property to the value of a template expression 
+			- the binding target specifies the property of the element, enclosed in []
+			- the binding source specifies the template expression, enclosed in '' or ""
+	- Event Binding 
+		- listens for events and executes a template expression when the event occurs 
+			- the target event specifies an event name, enclosed in ()
+			- the template expression often defines the method to call when the event occurs, enclosed in '' or ""
+	- Two-Way Data Binding 
+		- Displays a component class property and updates the property when the user makes changes 
+			- uses the ngModel directive, wrapped in the 'banana in a box' [()]
+				- ngModel is exposed in the FormsModule
+			- the binding source specifies a template expression and must be enclosed in '' or ""
+		
+What is a Pipe?
+	- Pipes transform bound properties before they are displayed 
+	- Angular offers built in pipes for 
+		- Date
+		- Currency
+		- JSON
+	- Pipes can be chained, as well as have parameters
+	
+How do we build a Custom Pipe?
+	1. Import the Pipe decorator and the PipeTransform interface from @angular/core
+	2. Create a class that implements PipeTransform
+		- export it 
+	3. Provide implementation for the PipeTransform's transform method 
+		- takes an input value (required)
+		- optional parameters can also be provided after the first input 
+		- return the transformed value 
+	4. Decorate the class with @Pipe
+		- specify the name of the pupe with the name property of the @Pipe decorator 
+	5. Add the custom pipe to the @NgModule's declaration array to use 
+	
+What is dependency injection?
+	- Depencency injection is a coding pattern in which a class receives the instances of the objects it needs (called dependencies) from an external source rather than creating them itself 
+	
+What is a Service?
+	- A Service is a class that is not dependent on any particular component which are used to provide shared data, logic across components, and encapsulate external interactions 
+	
+How do we build a Service?
+	1. Create a class and decorate it with the @Injectable decorator 
+		- export it
+	2. Register the provider => a provider is code that can create or return a service 
+		- we can add the service to the providers property in either 
+			- @Component => Injectable to component and its children 
+			- @NgModule => Injectable everywhere in an application 
+	3. Inject the Service 
+		- We achieve dependency injection in the constructor of the class in which we wish to use the service in 
+		- Similar to Java, every class has an implicit no arg constructor if no other constructor is defined 
+		- To inject dependencies, we need an explicit constructor passing in the service to be injected 
+		
+			export class MyComponent {
+				constructor(private myService: MyService) {}
+			}
+			
+What is an Observable?
+	- An observable is an array whose items arrive asynchronously over time 
+	- They help us manage asynchronous data, such as data coming from a back-end service 
+	- They are a proposed feature in the next release of ECMAScript, for now, Angular uses a third party library called Reactive Extensions (RxJS)
+	
+What is a Promise? 
+	- A promise handles a single event when an asynchronous operation completes or fails 
+	
+What are the differences between an Observable and a Promise?
+	Observables
+		- Emit multiple values over time 
+		- Lazy by default, will not emit values until they are subscribed to 
+		- can be cancelled by unsubscribing 
+		- supports operations like map, reduce, filter, etc
+		
+	Promise 
+		- Provide a single future value 
+		- Eager, by the time you have a promise it is on it's way to being resolved 
+		- Not cancellable, it is either resolved or rejected only once 
+		
+How do we send an HTTP request?
+	1. We must import the HttpClientModule from @angular/common/http
+		- add HttpClientModule to the imports array of our applcation's @NgModule 
+	2. Import the HttpClient from @angular/common/http into the service class 
+		- add HttpClient as a dependency to the constructor of the service class 
+	3. Create a method in the service class 
+		- HttpClient has methods for each of the HTTP methods (GET, PUT, POST, DELETE, etc), which you pass in the URL as well as any other information (e.g. login credentials for a POST)
+		- each take a generic type and automatically map the response to the provided generic type 
+	4. In the component in which you wish to make the HTTP call in, you must add the service as a dependency to the constructor of the component class 
+		- You must subscribe to the observable returned to the observable returned from the HttpClient method 
+		- subscribe() takes 2 functions, one for if the request was successful and another for if the request failed 
+		
+What is Routing and how does it work?
+	- Angular makes Single Page Applications (SPA's), so each component gets its turn on the index.html 
+	- You configure a route for each component 
+	- Activate the route based on a user action (clicking a button, submitting a form, etc)
+	- Activating a component's route displays the component's view 
+	
+How do I configure Routing?
+	1. Import RouterModule from @angular/router and add it to the imports array in @NgModule 
+		- RouterModule also declares the directives routerLink and <router-outlet>
+	2. Export an array of type Routes, specifing an array of Route definitions, specifying (at minimum)
+		- path => URL path segment which gets appended to the URL of our application 
+		- component => the component associated with the route, whose template is displayed when the route is activated 
+	3. Add the RouterModule.forRoot() in the imports array of @NgModule, passing the result of step 2 into the forRoot()
+	4. Use the routerLink directive and use property binding to allow user actions to activate a route 
+	5. Use the <router-outlet> directive in the host component's template to display the activated component's template 
+	
+What is the lifecycle of a Component?
+	- Each component has a lifecycle, managed by Angular 
+	- Angular 
+		- Creates the component 
+		- Renders it 
+		- Creates and renders it's children 
+		- Processes changes when its data bound properties change 
+		- Destroys the component before removing it from the DOM 
+		
+What are the lifecycle hooks?
+	- Angular offers lifecycle hooks that provide visibility into these key life moments and the ability to act when they occur 
+	- a component's constructor is called, then 
+		- ngOnChanges() => called whenever one or more data-bound input properties change 
+		- ngOnInit() => initialize the component after Angular first displays the data bound properties and sets the component's input properties 
+		- ngDoCheck() => called during every change of detection run 
+		- ngAfterContentInit() => called after component content initializes, called once after ngDoCheck()
+		- ngAfterContentChecked() => called after every check of component content, called after ngAfterContentInit()
+		- ngAfterViewInit() => called after Angular initializes the component's view and child views, called once after ngAfterContentChecked()
+		- ngAfterViewChecked() => called after Angular checks the component's view and child views
+		- ngOnDestroy() => cleanup just before Angular destroys the component 

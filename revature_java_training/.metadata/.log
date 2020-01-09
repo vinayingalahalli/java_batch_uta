@@ -19321,3 +19321,15 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-09 04:30:31.431
 !MESSAGE executing callback sts4.classpath.fdiLjIXp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-09 04:44:32.697
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fdiLjIXp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-09 04:44:32.709
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fdiLjIXp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-09 04:44:32.715
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-09 04:44:32.722
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fdiLjIXp => OK

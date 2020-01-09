@@ -1,0 +1,23 @@
+<div>
+<h1>Greatest Inventions in the world</h1>
+
+<table border="1px" >
+    <tr><th>Name</th>
+        <th>Inventor</th>
+        <th>Year of Invention</th>
+    </tr>
+    <tr *ngFor="let i of inventions">
+    <td>{{i.name}}</td>
+    <td>{{i.inventor}}</td>
+    <td>{{i.year}}</td>
+    </tr>
+</table>
+
+</div>
+<div align="center">
+    <h2>Add New Inventions to the list</h2>
+    <input placeholder="Enter Name" [(ngModel)]="nameModel"/><br/>
+    <input placeholder="Enter Inventor Name" [(ngModel)]="inventorModel"/><br/>
+    <input placeholder="Enter Year of Invention" [(ngModel)]="yearModel"/><br/>
+    <button (click)="createInvention()">Create</button>
+</div>
