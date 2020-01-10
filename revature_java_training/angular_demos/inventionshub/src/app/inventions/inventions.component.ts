@@ -1,27 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 import { Invention } from './invention';
+import { InventionsService } from '../inventions.service';
 
 @Component({
   selector: 'app-inventions',
   templateUrl: './inventions.component.html',
-  styleUrls: ['./inventions.component.css']
+  styleUrls: ['./inventions.component.css'],
+  providers:[InventionsService]
 })
 export class InventionsComponent implements OnInit {
  nameModel :string;
  inventorModel:string;
  yearModel:number;
  inventions:Invention[];
-  constructor() { 
+  constructor(private inventionsService:InventionsService) { 
     this.nameModel='';
     this.inventorModel='';
     this.yearModel=0;
 
-    let defaultInvention: Invention={
-      name:'Java Programming',
-      inventor:'James Gosling',
-      year:1992
-    };
-    this.inventions=[defaultInvention];
+  
+    this.inventions=inventionsService.getInventions();
   }
 
 createInvention(){

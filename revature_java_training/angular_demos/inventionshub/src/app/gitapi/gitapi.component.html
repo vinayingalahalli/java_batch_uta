@@ -1,0 +1,15 @@
+<div>
+    <h2>Git users</h2>
+    <table>
+        <tr>
+        <th>Id</th>        
+        <th>Login Name</th>
+        <th>Image</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.login}}</td>
+        <td><img [src]='user.avatar_url' width=100px></td>
+    </tr>
+    </table>
+</div>

@@ -5,15 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InventionsComponent } from './inventions/inventions.component';
 import {  FormsModule } from '@angular/forms';
+import { GitapiComponent } from './gitapi/gitapi.component';
+import {  HttpClient,HttpClientModule} from "@angular/common/http";
 @NgModule({
   declarations: [
     AppComponent,
-    InventionsComponent
+    InventionsComponent,
+    GitapiComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
