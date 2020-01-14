@@ -1,0 +1,47 @@
+# DevOps
+- Software Development Lifecycle (SDLC)
+    - Waterfall vs Agile
+- Agile/Scrum
+    - sprint
+    - agile team
+    - meetings
+    - User stories, burndown charts
+    - product backlog, sprint backlog
+- CI/CD/CD
+    - Continuous Integration
+    - Continuious Delivery
+    - Continuious Deployement
+- Maven Lifecyle
+- Git
+- Sonar
+    - Sonar Cloud
+    - Sonar Qube
+    - Sonar Lint
+- DevOps Pipeline
+- Jenkins
+    - Jenkins job
+    - Jenkins build
+# Linux
+- Benefits of Using a Linus OS
+- Unix Commands
+    - ls, cd, cp, mv, nano/vim, echo, cat, touch, rm
+    - ssh, scp, sudo, man, grep, yum, chmod
+    - tar, wget
+# Amazon Web Services (AWS)
+- On Premises vs Hybrid vs Cloud
+- Cloud Computing models
+    - Iaas
+    - Paas
+    - Saas
+- AWS Region vs Availability Zone
+- Identity Access Management (IAM)
+- Virtual Private Cloud(VPC)
+- Elastic Compute Cloud (EC2)
+    - Security Groups
+    - Load Balancers
+    - Autoscaling Groups
+    - Amazon Machine Image (AMI)
+    - Elastic Block Store
+- Simple Storage Service (S3)
+- Relational Database Service (RDS)
+
