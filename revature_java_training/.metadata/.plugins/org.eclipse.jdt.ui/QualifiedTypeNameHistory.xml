@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="eg1.HelloLogger"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="insert_demo.Manufacturer"/>
-<fullyQualifiedTypeName name="insert_demo.ManufacturerDAO"/>
-<fullyQualifiedTypeName name="com.dao.TeamDAO"/>
-<fullyQualifiedTypeName name="com.dao.TeamDaoImpl"/>
-<fullyQualifiedTypeName name="com.to.Team"/>
-<fullyQualifiedTypeName name="com.to.Player"/>
-<fullyQualifiedTypeName name="com.dao.PlayerDAO"/>
-<fullyQualifiedTypeName name="com.dao.PlayerDaoImpl"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
-<fullyQualifiedTypeName name="com.search.main.PlayerMain"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="com.search.bo.PlayerSearchBO"/>
 <fullyQualifiedTypeName name="com.search.bo.impl.PlayerSearchBoImpl"/>
 <fullyQualifiedTypeName name="com.search.dao.PlayerSearchDAO"/>
 <fullyQualifiedTypeName name="com.search.dao.impl.PlayerSearchDaoImpl"/>
@@ -53,11 +36,28 @@
 <fullyQualifiedTypeName name="com.college.bo.impl.CollegeBoImpl"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.college.to.College"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.to.User"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
+<fullyQualifiedTypeName name="helloHibernate.pojo.Laptop"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="helloHibernate.pojo.Customer"/>
 </qualifiedTypeNameHistroy>

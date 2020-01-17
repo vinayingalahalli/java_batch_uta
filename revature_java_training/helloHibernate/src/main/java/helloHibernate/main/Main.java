@@ -71,6 +71,7 @@ public class Main {
 		for(Customer c:clist) {
 			System.out.println(c.getName());
 		}
+		
 		//Criteria & Restrictions
 		transaction.commit();
 		session.close();
