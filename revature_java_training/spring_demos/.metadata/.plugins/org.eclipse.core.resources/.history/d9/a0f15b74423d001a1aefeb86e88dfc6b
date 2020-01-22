@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+      <!--   <bean id="h1" class="com.hellospring.pojo.Hello">
+        <property name="message" value="Hello World From Spring"></property>
+        </bean>
+        
+        <bean id ="h2" class="com.hellospring.pojo.Hello" lazy-init="true">
+        <property name="message" value="Hello World From Spring Once Again"></property>
+        </bean> -->
+        
+        <bean  id="p1" class="com.hellospring.pojo.Person">
+        <constructor-arg name="id" value="101"></constructor-arg>
+        <constructor-arg name="name" value="Sachin"></constructor-arg>
+        </bean>
+        
+         <bean  id="p2" class="com.hellospring.pojo.Person">
+        <property name="id" value="102"></property>
+        <property name="name" value="Kiran"></property>
+        </bean>
+        </beans>
