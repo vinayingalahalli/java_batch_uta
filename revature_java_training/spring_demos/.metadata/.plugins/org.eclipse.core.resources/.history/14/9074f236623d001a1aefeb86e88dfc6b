@@ -1,0 +1,28 @@
+package com.springorm.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+
+import com.springorm.pojo.Person;
+
+public class PersonDaoImpl implements PersonDAO{
+	private SessionFactory sessionFactory;
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	public Person createPerson(Person person) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Person> getPersonList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.springorm.pojo;
+
+public class Person {
+
+}

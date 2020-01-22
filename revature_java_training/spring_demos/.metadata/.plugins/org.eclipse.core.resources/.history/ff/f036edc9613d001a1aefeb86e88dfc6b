@@ -1,0 +1,5 @@
+package com.springorm.dao;
+
+public interface PersonDAO {
+
+}
