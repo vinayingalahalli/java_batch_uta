@@ -1,0 +1,38 @@
+package spring_jdbctemplate_demo.dao;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import spring_jdbctemplate_demo.pojo.Student;
+
+public class StudentDaoImpl implements StudentDAO{
+
+	private DataSource dataSource;
+	
+	private JdbcTemplate jdbcTemplate;
+	
+	public void setDataSource(DataSource dataSource) {
+		this.dataSource = dataSource;
+		this.jdbcTemplate=new JdbcTemplate(dataSource);
+	}
+	
+	public void createStudent(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+
+
+	
+
+
+
+	
+
+
+	
+
+}

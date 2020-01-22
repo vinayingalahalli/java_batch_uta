@@ -1,0 +1,9 @@
+package com.hellospring.pojo;
+
+public class Address {
+
+	private int aid;
+	private String city;
+	
+	
+}

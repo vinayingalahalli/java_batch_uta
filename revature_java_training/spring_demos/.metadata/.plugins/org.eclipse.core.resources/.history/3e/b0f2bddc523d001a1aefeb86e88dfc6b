@@ -1,0 +1,42 @@
+package com.hellospring.pojo;
+
+public class Employee extends Person {
+
+	private String orgName;
+	private double salary;
+	private Project project;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getOrgName() {
+		return orgName;
+	}
+
+	public void setOrgName(String orgName) {
+		this.orgName = orgName;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [orgName=" + orgName + ", salary=" + salary + "]";
+	}
+
+	public Project getProject() {
+		return project;
+	}
+
+	public void setProject(Project project) {
+		this.project = project;
+	}
+	
+}

@@ -3,6 +3,7 @@ package com.hellospring.main;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.hellospring.pojo.Employee;
 import com.hellospring.pojo.Hello;
 import com.hellospring.pojo.Person;
 
@@ -17,12 +18,15 @@ public static void main(String[] args) {
 //	Hello h2=(Hello) context.getBean("h2");
 //	System.out.println(h2.getMessage());
 	
-	Person p1=(Person)context.getBean("p1");
-	System.out.println(p1);
+//	Person p1=(Person)context.getBean("p1");
+//	System.out.println(p1);
+//	
+//	Person p2=(Person)context.getBean("p2");
+//	System.out.println(p2);
 	
-	Person p2=(Person)context.getBean("p2");
-	System.out.println(p2);
-	
+	Employee e1=(Employee) context.getBean("e1");
+	System.out.println(e1);
+
 	
 }
 }

@@ -1,0 +1,14 @@
+package com.hellospring.pojo;
+
+public class Project {
+
+	private int projectId;
+	private String projectName;
+	private String clientName;
+	
+	public Project() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

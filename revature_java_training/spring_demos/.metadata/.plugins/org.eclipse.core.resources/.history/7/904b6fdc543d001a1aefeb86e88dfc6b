@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+      <!--   <bean id="h1" class="com.hellospring.pojo.Hello" scope="prototype ">
+        <property name="message" value="Hello World From Spring"></property>
+        </bean>
+        
+        <bean id ="h2" class="com.hellospring.pojo.Hello" lazy-init="true">
+        <property name="message" value="Hello World From Spring Once Again"></property>
+        </bean> -->
+        
+        <bean  id="p1" class="com.hellospring.pojo.Person">
+        <constructor-arg name="id" value="101"></constructor-arg>
+        <constructor-arg name="name" value="Sachin"></constructor-arg>
+        </bean>
+        
+         <bean  id="p2" class="com.hellospring.pojo.Person" >
+        <property name="id" value="102"></property>
+        <property name="name" value="Kiran"></property>
+        </bean>
+        
+        <bean id="project1" class="com.hellospring.pojo.Project">
+        <property name="projectId" value="100001"></property>
+        <property name="projectName" value="Banking App"></property>
+        <property name="clientName" value="Abc Client"></property>
+        </bean>
+        
+        <bean id="a1" class="com.hellospring.pojo.Address">
+        <property name="aid" value="900"></property>
+        <property name="city" value="Dallas"></property>
+        </bean>
+        <bean id="a2" class="com.hellospring.pojo.Address">
+        <property name="aid" value="901"></property>
+        <property name="city" value="NY"></property>
+        </bean>
+        <bean id="a3" class="com.hellospring.pojo.Address">
+        <property name="aid" value="903"></property>
+        <property name="city" value="NJ"></property>
+        </bean>
+        
+        
+        
+        <bean id="e1" class="com.hellospring.pojo.Employee" parent="p2">
+        <property name="orgName" value="Revature"></property>
+        <property name="salary" value="1022.22"></property>
+        <property name="project" ref="project1"></property>
+        <property name="addressList" >
+        <list>
+        
+        </list>
+        </property>
+        </bean>
+        
+        </beans>

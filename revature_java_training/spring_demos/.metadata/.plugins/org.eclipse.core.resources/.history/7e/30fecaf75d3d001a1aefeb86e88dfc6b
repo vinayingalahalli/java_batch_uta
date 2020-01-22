@@ -1,0 +1,5 @@
+package spring_jdbctemplate_demo.dao;
+
+public class StudentMapper {
+
+}
