@@ -1,0 +1,5 @@
+package com.rest.messageservice;
+
+public class MessageService {
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+E:\revature_java_training\spring_demos\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3753576731.index
+3169052664.index
+877311623.index

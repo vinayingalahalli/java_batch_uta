@@ -1,0 +1,15 @@
+package com.mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloController {
+
+	@RequestMapping("/hi/{name}")
+	public String sayHello(@PathVariable("name")String name) {
+		System.out.println("Hello "+name);
+		return "welcome";
+	}
+}

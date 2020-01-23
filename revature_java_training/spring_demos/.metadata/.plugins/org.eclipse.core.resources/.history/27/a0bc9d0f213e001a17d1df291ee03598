@@ -1,0 +1,14 @@
+package com.rest.messageservice;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.rest.model.Message;
+
+@Service
+public class MessageService {
+	private static Map<Integer, Message> hm=new LinkedHashMap<>();
+	
+}

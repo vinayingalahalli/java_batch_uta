@@ -1,0 +1,5 @@
+package com.rest.model;
+
+public class Message {
+
+}
