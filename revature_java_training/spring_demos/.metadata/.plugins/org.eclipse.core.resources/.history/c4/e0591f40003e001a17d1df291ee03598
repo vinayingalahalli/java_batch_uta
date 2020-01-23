@@ -1,0 +1,8 @@
+package com.aop.bo;
+
+public class SomeBO {
+
+	public void validate() {
+		System.out.println("some validation from validate() method of SomeBO");
+	}
+}

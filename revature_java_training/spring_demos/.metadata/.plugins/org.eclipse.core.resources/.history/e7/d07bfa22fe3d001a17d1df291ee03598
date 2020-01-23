@@ -1,0 +1,8 @@
+package com.aop.bo.aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class ProxyBO {
+
+}

@@ -1,0 +1,13 @@
+package com.aop.bo.aspects;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class ProxyBO {
+
+	@Pointcut("execution(* com.aop.bo.SomeBO.validate*(..))")
+	public void someBO(){}
+	
+	
+}
