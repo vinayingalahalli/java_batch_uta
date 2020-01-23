@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-E:\revature_java_training\spring_demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3169052664.index
-\spring_web_mvc_xml_demo\src\main\java

@@ -1,5 +1,0 @@
-package com.springorm.dao;
-
-public class PersonDaoImpl {
-
-}

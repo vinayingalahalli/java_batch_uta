@@ -1,8 +1,0 @@
-package spring_jdbctemplate_demo.dao;
-
-import spring_jdbctemplate_demo.pojo.Student;
-
-public interface StudentDAO {
-
-	public void createStudent(Student student);
-}

@@ -1,5 +1,0 @@
-package com.aop.bo.aspects;
-
-public class ProxyBO {
-
-}
