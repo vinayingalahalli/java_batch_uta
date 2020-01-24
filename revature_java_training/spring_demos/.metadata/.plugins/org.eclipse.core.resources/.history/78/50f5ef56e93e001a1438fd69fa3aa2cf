@@ -16,7 +16,7 @@ import com.app.model.Animal;
 import com.app.service.AnimalService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class AnimalController {
 	@Autowired
 	private AnimalService service;

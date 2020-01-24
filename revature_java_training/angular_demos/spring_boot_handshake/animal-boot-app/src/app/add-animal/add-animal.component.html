@@ -1,0 +1,23 @@
+<div>
+<h4 style="text-decoration: underline;">Register Animal</h4>
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" [(ngModel)]="animal.name"/></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" [(ngModel)]="animal.age"/></td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td><input type="text" [(ngModel)]="animal.category"/></td>
+        </tr>
+        <tr>
+            <td><button  (click)="addAnimal()">Save Animal</button></td>
+        </tr>
+    </table>
+
+
+</div>
