@@ -1,0 +1,16 @@
+package com.app.service;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.app.model.Animal;
+
+public interface AnimalService {
+
+	public List<Animal> getAllAnimals();
+	public Animal getAnimalById(int id);
+	public Animal addAnimal(Animal animal);
+	public Animal updateAnimal(Animal animal)
+}

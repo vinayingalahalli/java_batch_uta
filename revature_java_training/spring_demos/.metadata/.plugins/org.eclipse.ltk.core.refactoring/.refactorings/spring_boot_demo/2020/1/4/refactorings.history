@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring_boot_demo/src/main/resources/application.yml.yml&apos; to &apos;application.properties&apos;" description="Rename resource &apos;application.yml.yml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/application.yml.yml" name="application.properties" stamp="1579883252206" updateReferences="true"/>
+</session>

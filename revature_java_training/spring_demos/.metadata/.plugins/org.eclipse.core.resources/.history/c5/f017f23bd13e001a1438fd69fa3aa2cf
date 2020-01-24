@@ -1,0 +1,45 @@
+package com.app.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.app.dao.AnimalDAO;
+import com.app.model.Animal;
+@Service
+public class AnimalServiceImpl implements AnimalService {
+	@Autowired
+	private AnimalDAO animalDao;
+
+	@Override
+	public List<Animal> getAllAnimals() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Animal getAnimalById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Animal addAnimal(Animal animal) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Animal updateAnimal(Animal animal) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteAnimalById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

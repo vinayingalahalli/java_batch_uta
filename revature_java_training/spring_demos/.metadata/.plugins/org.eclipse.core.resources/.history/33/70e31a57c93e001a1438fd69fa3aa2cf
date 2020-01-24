@@ -1,0 +1,2 @@
+server.port=9000
+spring.jpa.show-sql=true
