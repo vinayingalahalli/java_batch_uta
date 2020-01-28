@@ -1,0 +1,11 @@
+package com.app.service;
+
+public class HelloSoapImpl implements HelloSoap{
+
+	@Override
+	public String sayHello(String name) {
+		// TODO Auto-generated method stub
+		return "Hello "+name+" Welcome to SOAP with JAX-WS";
+	}
+
+}

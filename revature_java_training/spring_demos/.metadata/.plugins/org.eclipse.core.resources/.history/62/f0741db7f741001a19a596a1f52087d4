@@ -1,0 +1,12 @@
+package com.app.service.client;
+
+import java.net.URL;
+
+public class HelloClient {
+
+	public static void main(String[] args) {
+		URL url=new URL("http://localhost:8000/hello?wsdl");
+
+	}
+
+}
