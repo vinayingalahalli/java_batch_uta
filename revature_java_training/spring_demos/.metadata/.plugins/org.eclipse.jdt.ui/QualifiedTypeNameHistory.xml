@@ -27,4 +27,14 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+<fullyQualifiedTypeName name="com.app.service.HelloSoapImpl"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+<fullyQualifiedTypeName name="com.app.service.HelloSoap"/>
 </qualifiedTypeNameHistroy>

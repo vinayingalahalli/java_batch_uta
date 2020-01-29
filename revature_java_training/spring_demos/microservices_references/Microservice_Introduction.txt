@@ -1,0 +1,65 @@
+Microservices in simple words are similar to big container wherein all the software components of an application are assembled together and tightly packaged.
+It replaced Monolithic architecture wherein initially all features were under a single instance sharing a single database.Thus in Microservices each feature allotted a different microservice handling their own data and performing different functionalities.
+
+Features of Microservices
+1. Different clients from different devices try to use different services which includes search,build,configure and other management dashboard capabilities.
+
+2. All the services are seperated based on their domains and functionalities and are further alloted to individual microservices.
+
+3.Thus microservice have their own load balanceer and execution environment to execute their functionalities and at the same time capture data in their own database environment.
+
+4. Hence all Microservices have their own load balancer(Fallback mechanism) which communicate with each other and have execution environment replicated through a stateless server which is either RESTT or message bus.
+
+5. Microservices know their path of communication with the help of Service Discovery done by Eureka server which has operational capabilities such as Monitoring and Automatin.
+
+6. All these functionalities performed by microservices are communicated to clients via API gateway.
+
+7.All the internal points are connected from the API gateway. hence someone who connects to the API gateway automatically gets connected to the complete system.
+
+8. Other features includes
+    a. Decoupling - services are decoupled so that application can be easily built,altered and scaled
+    b. Componentization - Independent components can be easily replaced and upgraded.
+    c. Business capabilities - Each service are very simple and focus on single capability.
+    d. Autonomy- Developers and teams can work independently of each other, thus increasing speed.
+    e. Continous Delivery - Allows frequesnt releases of software ,through systematic automation of software creation,testing and approval. Ex:Devops
+    f. Responsibility - It focuses on applications as projects for which they are responsible independently.
+    g. Decentralized Governance - Developers have freedom to choose the best useful tools to solve their problems.
+    h. Agility - Microservices support agile development.Any new feature can be quickly developed and discarded again.
+    i. Fault tolerance - Microservices design support debugging and fallback mechanisms if some service is unavilable.
+    j. Time to market - Once the initial rollout of microservices are done, we can have small releases i.e addition of more functions /services deployed much faster then its possible to a monolithic application since the impacts are localized and Decentralized and far less risky.
+
+Netflix OSS
+The popular Online streaming service had to scale the services due to their customer base increasing and expansion across geography was intended.Hence adaptation of microservices architectural stle was done to address the scalability,fault tolerance and availability anytime.
+Thus many softwares like Eureka,Zuul, Ribbon,Feign and Hysterix were created to support the microservices development which later they open sourced as part of Netflix Open Source Software - OSS
+
+Netflix OSS softwares are available under "Common runtime services ,libraries and containers" that power microservices
+
+This platform provides following services namely
+
+1. Eureka - It provides the Discovery of Microservices and is the key tenets of microservice based architecture.Eureka is th Netflix service discovery server on client. This server can be configuredd and deployed to be highly available with each server replicating state about the registered services to the other. 
+;
+
+2. Hysterix - Hysterix is provided to isolate latency and fault tolerance at runtime.It is designed to isolate points of access to remote systems,services and 3rd party libraries,also to stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+
+3. Zuul - Zuul is an application gateway that provides capabilities of dynamic routing,monitoring,resilency,security and more.
+
+4. Ribbon - Ribbon provides Client side routing capabilities and is a client side load balancer that gives lot of control over the behaviour of HTTP and TCP clients.
+
+5.Feign - Feign provides Declarative REST client feature.All the microservice are now exposed as endpoints for consumption as webservices
+
+6. Kubernetes is open source container-orchestration system used for automating application deployment,scaling and management.It was orginally designed by google and provides application containers across clusters of hosts and works with range of container tools which includes Docker.
+Kubernetes based platform is a Infrastructure as a service on which Kubernetes can be deployed a PAAS.
+
+Kubernetes objects inlcude Pods,Replica sets and services as well as Volumes,Namespaces,Config maps and secret service,stateful sets and Daemon sets.
+
+We will go ahead and develop a simple microsevice which caters Netflix features for movie provisioning as complete Movie Catalog service consumption of two other microservices namely Movie information service(consumption of outbound webservices for retrieval of movie data) and IMDB Ratings data service(Hard coded values) giving the capability based on each userdata get ratings for each movie available.
+
+
+Steps to create Netflix Movie Catalog service running on local server and getting REST responses of each userdata get ratings for each movie available
+
+1. Eureka server implementing Discovery of all the below services while registering them as well as load balancing for fallback mechanism to be implemented.
+2. Import 3 spring boot application onto your eclipse 
+    a. Movie Catalog service API as spring boot application
+    b. Movie Info service API as spring boot application
+    c. Movie ratings data service API as spring boot application
+3. Movie Cataglog service spring boot application calls the other two spring boot application the naive way.
