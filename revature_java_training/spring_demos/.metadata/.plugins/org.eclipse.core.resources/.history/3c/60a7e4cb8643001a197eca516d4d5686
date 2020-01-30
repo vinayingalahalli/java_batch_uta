@@ -1,0 +1,46 @@
+package com.animal.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.animal.model.Animal;
+import com.app.dao.AnimalDAO;
+@Service
+public class AnimalServiceImpl implements AnimalService {
+	
+
+	@Override
+	public List<Animal> getAllAnimals() {
+		
+	}
+
+	@Override
+	public Animal getAnimalById(int id) {
+		
+	}
+
+	@Override
+	public Animal addAnimal(Animal animal) {
+		
+	}
+
+	@Override
+	public Animal updateAnimal(Animal animal) {
+		
+	}
+
+	@Override
+	public void deleteAnimalById(int id) {
+		
+		
+		
+	}
+
+	@Override
+	public List<Animal> getAnimalsByAge(int age) {
+	
+	}
+
+}

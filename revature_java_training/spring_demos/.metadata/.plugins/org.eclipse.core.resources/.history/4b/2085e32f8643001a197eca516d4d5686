@@ -1,0 +1,29 @@
+package com.animal.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Indexed;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@Indexed
+public class Animal implements Serializable {
+	
+	private int id;
+	private String name;
+	private int age;
+	private String category;
+	
+
+}

@@ -1,0 +1,4 @@
+spring.application.name=animal-app
+server.port=9000
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
