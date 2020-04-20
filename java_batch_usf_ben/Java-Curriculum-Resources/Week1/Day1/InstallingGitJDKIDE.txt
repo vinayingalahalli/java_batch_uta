@@ -1,0 +1,14 @@
+Installing Git, JDK, IDE
+
+Installation file for Git:
+	https://gitforwindows.org/
+	Use default editor (because I know the commads for that)
+
+Installation file for JDK
+	Install JDK version 8 (because we'll be showcasing that)
+	https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+Installation file for IDE (STS or Eclipse)
+	Install STS version 3, version 4 removes some essential training features
+	https://github.com/spring-projects/toolsuite-distribution/wiki/Spring-Tool-Suite-3
+	Also can use Eclipse, might need to switch later in the curriculum.

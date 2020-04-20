@@ -1,0 +1,37 @@
+Garbage Collection in Java
+
+	GC is the reason why we as programmers don't need to worry about memory allocations in 
+	creating and destroying objects. Negligent coding in this regard, leads to OutOfMemoryErrors.
+
+	GC is a daemon thread, meaning that it is always running in the background. It's purpose 
+	is to clear the Heap memory to free up space for other objects. 
+
+	It removes objects that are eligible fore removal, what does it take for it to be eligible??
+	UNREACHABLE OBJECTs, i.e. all and any references to the object has been removed.
+
+
+	Ways to remove reference:
+		Nullify the reference:
+			Object reference = new Object();
+			reference = null;
+
+		Re-assign the reference:
+			Object reference = new Object();
+			reference = new OtherObject();
+
+		Creating an object withing a method:
+		
+			public void myMethod(){
+				Object reference = new Object();
+				}
+		
+	You can manually call the Garbage collection with the line:
+		system.gc()
+	But this is finicky, and let the garbage collector do its thing. 
+
+
+	Finalize() method:
+		Is a method (Contained within the Object class) that is called just before an 
+		object is reclaimed for destruction. Allows you to execute some code just before 
+		the object is being destroyed. 
+		
