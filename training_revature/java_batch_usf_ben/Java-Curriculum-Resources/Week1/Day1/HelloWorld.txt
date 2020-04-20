@@ -1,0 +1,12 @@
+"Hello World" program:
+	
+	//access modifier followed by class name
+	public [class-name] 
+	{
+		//access modifier, non-access modifier, return type, reserved keyword main, parameters
+		public static void main(String[] args){
+	
+		//prints out to the console
+			System.out.println("Hi Earth")
+		}
+	}

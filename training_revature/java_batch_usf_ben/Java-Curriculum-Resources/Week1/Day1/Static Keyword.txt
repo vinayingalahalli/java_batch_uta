@@ -1,0 +1,98 @@
+Static keyword:
+
+	"Static" is a reserved keyword in Java. It can be used with variables, methods, blocks and nested classes 
+
+	Variables:
+		When a variable is declared with a static modifier, it allows the variable to be accessed without needing to 
+		instantiate the class. 
+
+		public class MyClass{
+			String myString1 = "My non-static variable";
+			static String myString2 = "My static variable";
+			
+			public static void main(String[] args){
+
+				//To access non-static variable we have to first instantiate the class:
+				MyClass myClass = new MyClass();
+				System.out.println(myClass.myString1)
+		
+				//To access non-static variable we can directly call it:
+				System.out.println(myString2);
+			}
+		}
+
+	Method:
+		It allows you to reference the method without needing to instantiate the class. 
+	
+		public class MyClass{
+			static void staticMethod(){
+				System.out.println("Welcome to my static method");
+			}
+			
+			void nonStaticMethod(){
+				System.out.println("Welcome to my non-static method");
+			}
+
+			public static void main(String[] args){
+
+				//To access non-static method, we have to instantiate the class:
+				MyClass myClass = new MyClass();
+				myClass.nonStaticMethod;
+
+				//Static method can be called directly 
+				MyClass.staticMethod();
+				staticMethod();
+			}
+		}
+
+	Block:
+		Allows you to initialise the variables of a class when it's been loaded into memory. This is done when the class has been referenced.
+		You can have multiple static blocks and they'll be executed sequentilly.
+
+		public class MyClass{
+
+			int var1;
+			String var2;
+			double var3;
+
+			static{
+				var1 = 0;
+				var2 = "Here's a string";
+				var3 = "0.0";
+				System.out.println(var1);
+				System.out.println(var2);
+				System.out.println(var3);
+				}
+
+			public static void main(String[] args){
+
+			}
+		}
+		//This method runs the static block before the main method inside the MyClass is referenced.
+
+	(Nested) Class:
+		Static keyword can be only used with a nested class. It doesn't need a reference of outer class but cannot access 
+		non-static members of outer class.
+
+		public class OuterClass{
+
+			static class StaticInnerClass{
+				
+				public void myMethod(){
+					System.out.println("Inside method, which is inside nested class, which is inside outer class");
+				}
+			}
+	
+			class InnerClass{
+				public void myMethod(){
+					System.out.println("Inside non static class");
+				}
+			} 
+
+			public static void main(String[] args){
+				StaticInnerClass = new StaticInnerClass();
+				OuterClass.InnerClass = OuterClass.new InnerClass();
+				}
+			}
+		}
+		
